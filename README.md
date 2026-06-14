@@ -1,16 +1,74 @@
-# React + Vite
+# ToDo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal, beautiful To-Do list app built with React and Vite. Manage tasks quickly with a clean UI, add new items, and remove completed ones.
 
-Currently, two official plugins are available:
+![App Screenshot](src/assets/screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Live demo:** Run locally using `npm run dev` (see instructions).
 
-## React Compiler
+**Repository:** https://github.com/apurvmusandi/ToDo-App
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Tech stack**
+- React
+- Vite
+- Vanilla CSS
 
-## Expanding the ESLint configuration
+**Features**
+- Add, view, and remove to-do items
+- Simple, responsive UI
+- Fast development with Vite HMR
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Screenshot**
+
+The main screenshot above is included in `src/assets/screenshot.png` and demonstrates the app's default view.
+
+**Getting started (Windows / macOS / Linux)**
+
+1. Clone the repository
+
+	git clone https://github.com/apurvmusandi/ToDo-App.git
+
+2. Change into the project directory
+
+	cd "To-Do App"
+
+3. Install dependencies
+
+	npm install
+
+4. Start the dev server
+
+	npm run dev
+
+5. Open the provided local URL (usually `http://localhost:5173`) in your browser.
+
+**Build for production**
+
+1. Build the app
+
+	npm run build
+
+2. Preview the production build locally
+
+	npm run preview
+
+**Project structure**
+- `index.html` — App entry
+- `src/main.jsx` — React entry
+- `src/App.jsx` — Main app component
+- `src/components/` — UI components
+- `src/assets/` — Images and static assets (includes screenshot.png)
+
+**Usage**
+- Type a task into the input and press the add button or Enter to create a new task.
+- Click the delete/remove icon to remove a task.
+
+**Contributing**
+- Feel free to open issues or submit pull requests. Small improvements (styling, accessibility, tests) are welcome.
+
+**License**
+- MIT
+
+---
+
+If you'd like, I can also add a `CONTRIBUTING.md`, add tests, or deploy a live demo. Which would you prefer next?
