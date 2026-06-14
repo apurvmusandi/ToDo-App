@@ -3,6 +3,11 @@ import AppName from './components/AppName';
 import AddToDo from './components/AddToDo';
 
 function App() {
+  
+  btn.onclick = function() { 
+    
+  };
+
   return (
     <center className="todo_container">
       <AppName />
@@ -19,29 +24,11 @@ function App() {
           </div>
         </div>
 
-        <div className="row">
-          <div className="col-6">
-            Buy Milk
-          </div>
-          <div className="col-4">
-            2026-05-15
-          </div>
-          <div className="col-2">
-            <button type="button" className="btn btn-danger">Delete</button>          
-          </div>
-        </div>
+        <AddToDo />
+        
 
-        <div className="row">
-          <div className="col-6">
-            Complete Assignment
-          </div>
-          <div className="col-4">
-            2026-06-14
-          </div>
-          <div className="col-2">
-            <button type="button" className="btn btn-danger">Delete</button>          
-          </div>
-        </div>
+
+        
       </div>
     </center>
   );
